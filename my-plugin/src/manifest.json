@@ -10,7 +10,7 @@
     }
   ],
   "menu": {
-    "title": "my-plugin",
+    "title": "my-new-plugin",
     "items": [
       "my-command-identifier"
     ]

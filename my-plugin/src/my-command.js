@@ -20,11 +20,22 @@ export default function() {
 
   var myStyle = new sketch.Style()
   myStyle.fills = ['#bb0000'];
+  myStyle.borders = [{
+    enabled: false
+    //thickness: 0
+  }];
   var rect = new Shape({
     parent: page,
     frame: new Rectangle(0, 0, 80, 1),
     style: myStyle
   })
+
+  log(myStyle)
+  log(rect)
+
+//#  for (i = 0; i < rect.style.borders.length; i++) {
+//#    rect.style.borders[i] = false;
+//#  }
 
   var selection = document.selectedLayers
 
