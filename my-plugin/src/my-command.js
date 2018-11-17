@@ -123,7 +123,7 @@ selectedLayers.forEach(function (layer) {
   // sketch.Settings.setSettingForKey('setting-to-remember', outputString)
   // log(sketch.Settings.settingForKey('setting-to-remember'))
 
-  sketch.UI.message("Success?")
+//  sketch.UI.message("Success?")
 
 
 }
