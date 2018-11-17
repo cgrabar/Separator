@@ -6,7 +6,9 @@
     {
       "name": "my-command",
       "identifier": "my-command-identifier",
+      "shortcut": "ctrl shift q",
       "script": "./my-command.js"
+
     }
   ],
   "menu": {
