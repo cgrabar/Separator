@@ -4,7 +4,7 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
+      "name": "Convert to a perfect line",
       "identifier": "my-command-identifier",
       "shortcut": "command shift i",
       "script": "./my-command.js"
@@ -12,7 +12,7 @@
     }
   ],
   "menu": {
-    "title": "my-new-plugin",
+    "title": "The Separator",
     "items": [
       "my-command-identifier"
     ]
